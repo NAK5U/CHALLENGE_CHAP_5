@@ -1,0 +1,179 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+}
+#navbar-main {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.navbar-brand {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+#jumbotron {
+  background-image: url("../main-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#jumbotron-isi {
+  padding: 2rem 1rem;
+  padding-top: 15%;
+}
+
+.h1-jumbotron {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 83px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.h3-jumbotron {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+#main-button {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+  height: 59.999969482421875px;
+  width: 260.3616943359375px;
+  left: 588px;
+  top: 528.7000732421875px;
+  color: #1a1917;
+  text-align: center;
+}
+
+.the-story2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  /* or 183% */
+
+  text-align: justify;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+.the-story {
+  margin-top: 10em;
+}
+
+#game-back {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #724c21;
+}
+
+#game-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+
+  background: #9c835f;
+}
+
+#tittle-game {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #f9b23d;
+}
+.link-nav {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  width: 185px;
+  height: 130px;
+}
+button:hover {
+  background-color: rgba(196, 196, 196, 1);
+  border-radius: 10px;
+}
+button img {
+  width: 100px;
+}
+img#refresh {
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#margin-game {
+  margin-top: 10em;
+}
+#result {
+  color: #bd0000;
+  font-size: 140px;
+  font-weight: bold;
+  letter-spacing: 14px;
+}
+
+/* javascript css */
+.game-result {
+  color: white;
+  font-size: 38px;
+  letter-spacing: 4px;
+}
+.game-result-win {
+  background-color: #4c9654;
+}
+.game-result-draw {
+  background: #035b0c;
+}
+.rotate {
+  transform: rotate(-28deg);
+}
+
+.active {
+  background-color: #c4c4c4;
+  border-radius: 20px;
+}
